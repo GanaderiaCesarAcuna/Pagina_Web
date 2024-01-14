@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganadería Cesar Acuña</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/whats.css">
+    <link rel="stylesheet" href="css/whats2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <!-- NAVEGADOR -->
+        <nav class="menu">
+            <section class="contenedor_menu">
+                <h1 class="logo_menu">GANADERÍA <span class="logo_menu logo_menu--bold">CESAR ODON ACUÑA ESPEJO</span></h1>
+                <div class="cont_enlaces">
+                    <ul class="menu_links">
+                        <li class="menu_item">
+                            <a href="#banner" class="link">Inicio</a>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#nosotros" class="link">Nosotros</a>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#portafolio" class="link">Portafolio</a>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#servicios" class="link">Servicios</a>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#consumidores" class="link">Consumidores</a>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#contacto" class="link">Contactos</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu_icon">
+                    <img src="img/menu.svg" class="menu_img">
+                </div>
+            </section>
+        </nav>
+        <script src="js/navegador.js"></script>
+    </header>
+
+    <main>
+        <!-- BANNER -->
+        <section class="slider" id="banner">
+            <div class="myslide fade">
+                <div class="txt">
+                    <h1>BEINVENIDO A NUESTRA GANADERÍA</h1>
+                    <p>En nuestro rincón rural, unimos pasión y compromiso <br> por la excelencia de nuestro ganado.</p>
+                    <a href="#servicios" class="btn-shop">PRODUCTOS</a>
+                </div>
+                <img src="img/portada1.jpg" style="width: 100%; height: 100%;">
+            </div>
+            <div class="myslide fade">
+                <div class="txt">
+                    <h1>ENCUENTRA TU GANADO IDEAL</h1>
+                    <p>Compra y vende ganado con comodidad desde tu hogar. <br> Todo en un solo lugar, nuestra
+                        plataforma ganadera.</p>
+                    <a href="#servicios" class="btn-shop">PRODUCTOS</a>
+                </div>
+                <img src="img/portada2.jpg" style="width: 100%; height: 100%;">
+            </div>
+            <div class="myslide fade">
+                <div class="txt">
+                    <h1>CONVIERTE TU GANADO EN INVERSIÓN</h1>
+                    <p>Explora nuestro espacio virtual, donde puedes comprar y <br> vender ganado al mejor precio. ¡No
+                        te lo pierdas!</p>
+                    <a href="#servicios" class="btn-shop">PRODUCTOS</a>
+                </div>
+                <img src="img/portada3.jpg" style="width: 100%; height: 100%;">
+            </div>
+            <div class="myslide fade">
+                <div class="txt">
+                    <h1>NEGOCIA GANADO CON FACILIDAD</h1>
+                    <p>Únete a nuestra comunidad ganadera y simplifica tus transacciones. <br> La elección inteligente
+                        para ganaderos.</p>
+                    <a href="#servicios" class="btn-shop">PRODUCTOS</a>
+                </div>
+                <img src="img/portada4.jpg" style="width: 100%; height: 100%;">
+            </div>
+            <a class="slider__btn slider__btn--left" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="slider__btn slider__btn--right" onclick="plusSlides(1)">&#10095;</a>
+            <div class="dotsbox" style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+        </section>
+        <script src="js/banner.js"></script>
+        <!-- SECCION NOSOTROS -->
+        <section class="sobre-nosotros" id="nosotros">
+            <div class="contenedor">
+                <h2 class="titulo">CONOCE A LA GANADERÍA</h2>
+                <div class="contenedor-sobre-nosotros">
+                    <img src="img/presentacion.jpg" alt="" class="imagen-about-us">
+                    <div class="contenido-textos">
+                        <h3><span>1</span>¿Quiénes Somos?</h3>
+                        <p>Somo propietarios de una ganadería comprometida con la crianza y oferta de
+                            ganado de alta calidad. En nuestro establecimiento, combinamos la tradición con la
+                            innovación,
+                            destacando la atención meticulosa a cada detalle que se refleja en la excelencia de nuestros
+                            productos.</p>
+                        <h3><span>2</span>Visión</h3>
+                        <p>Aspiramos a ser líderes en la industria ganadera, reconocidos por nuestra excelencia en la
+                            crianza de ganado y la oferta de productos de la más alta calidad.</p>
+                        <h3><span>3</span>Misión</h3>
+                        <p> Comprometernos a mantener una atención meticulosa a cada detalle, asegurando la excelencia
+                            en
+                            nuestros productos. Guiados por el respeto hacia la naturaleza y el bienestar animal,
+                            buscamos proporcionar a nuestros clientes una experiencia ganadera única.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- SECCION PORTAFOLIO -->
+        <section class="portafolio" id="portafolio">
+            <div class="contenedor">
+                <h2 class="titulo">NUESTRO PORTAFOLIO</h2>
+                <div class="galeria-port">
+                    <div class="imagen-port">
+                        <img src="img/portafolio1.jpg" alt="">
+                        <div class="hover-galeria">
+                            <a href="#modal1"><img src="img/alfiler.svg" alt=""></a>
+                            <p>Nuestro Trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/portafolio2.jpg" alt="">
+                        <div class="hover-galeria">
+                            <a href="#modal2"><img src="img/alfiler.svg" alt=""></a>
+                            <p>Nuestro Trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/portafolio3.jpg" alt="">
+                        <div class="hover-galeria">
+                            <a href="#modal3"><img src="img/alfiler.svg" alt=""></a>
+                            <p>Nuestro Trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/portafolio4.jpeg" alt="">
+                        <div class="hover-galeria">
+                            <a href="#modal4"><img src="img/alfiler.svg" alt=""></a>
+                            <p>Nuestro Trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/portafolio5.jpg" alt="">
+                        <div class="hover-galeria">
+                            <a href="#modal5"><img src="img/alfiler.svg" alt=""></a>
+                            <p>Nuestro Trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/portafolio6.jpg" alt="">
+                        <div class="hover-galeria">
+                            <a href="#modal6"><img src="img/alfiler.svg" alt=""></a>
+                            <p>Nuestro Trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/portafolio7.jpg" alt="">
+                        <div class="hover-galeria">
+                            <a href="#modal7"><img src="img/alfiler.svg" alt=""></a>
+                            <p>Nuestro Trabajo</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="img/portafolio8.jpg" alt="">
+                        <div class="hover-galeria">
+                            <a href="#modal8"><img src="img/alfiler.svg" alt=""></a>
+                            <p>Nuestro Trabajo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- VENTANAS MODALES DEL PORTAFOLIO -->
+        <section id="modal1" class="modal">
+            <div class="modal_container"> <!-- 1era modal,imagen,titulo y el boton q nos regresa a portafolio -->
+                <figure class="modal_picture">
+                    <img src="img/portafolio1.jpg" class="modal_img">
+                </figure>
+                <h2 class="modal_title modal_title--bold">CORRALES
+                    <span class="modal_title">DEL GANADO</span>
+                </h2>
+                <a href="#portafolio" class="modal_close">Ver Portafolio</a> <!-- boton q nos regresa a portafolio -->
+            </div>
+        </section>
+        <section id="modal2" class="modal">
+            <div class="modal_container">
+                <figure class="modal_picture">
+                    <img src="img/portafolio2.jpg" class="modal_img">
+                </figure>
+                <h2 class="modal_title modal_title--bold">ORDEÑAMIENTO
+                    <span class="modal_title">DEL GANADO</span>
+                </h2>
+                <a href="#portafolio" class="modal_close">Ver Portafolio</a>
+            </div>
+        </section>
+        <section id="modal3" class="modal">
+            <div class="modal_container">
+                <figure class="modal_picture">
+                    <img src="img/portafolio3.jpg" class="modal_img">
+                </figure>
+                <h2 class="modal_title modal_title--bold">CORRALES
+                    <span class="modal_title">DEL GANADO</span>
+                </h2>
+                <a href="#portafolio" class="modal_close">Ver Portafolio</a>
+            </div>
+        </section>
+        <section id="modal4" class="modal">
+            <div class="modal_container">
+                <figure class="modal_picture">
+                    <img src="img/portafolio4.jpeg" class="modal_img">
+                </figure>
+                <h2 class="modal_title modal_title--bold">ALIMENTACIÓN
+                    <span class="modal_title">DEL GANADO</span>
+                </h2>
+                <a href="#portafolio" class="modal_close">Ver Portafolio</a>
+            </div>
+        </section>
+        <section id="modal5" class="modal">
+            <div class="modal_container">
+                <figure class="modal_picture">
+                    <img src="img/portafolio5.jpg" class="modal_img">
+                </figure>
+                <h2 class="modal_title">PASTOREO
+                    <span class="modal_title modal_title--bold">DEL GANADO</span>
+                </h2>
+                <a href="#portafolio" class="modal_close">Ver Portafolio</a>
+            </div>
+        </section>
+        <section id="modal6" class="modal">
+            <div class="modal_container">
+                <figure class="modal_picture">
+                    <img src="img/portafolio6.jpg" class="modal_img">
+                </figure>
+                <h2 class="modal_title">LIMPIEZA
+                    <span class="modal_title modal_title--bold">DEL GANADO</span>
+                </h2>
+                <a href="#portafolio" class="modal_close">Ver Portafolio</a>
+            </div>
+        </section>
+        <section id="modal7" class="modal">
+            <div class="modal_container">
+                <figure class="modal_picture">
+                    <img src="img/portafolio7.jpg" class="modal_img">
+                </figure>
+                <h2 class="modal_title modal_title--bold">PATOREO
+                    <span class="modal_title">DEL GANADO</span>
+                </h2>
+                <a href="#portafolio" class="modal_close">Ver Portafolio</a>
+            </div>
+        </section>
+        <section id="modal8" class="modal">
+            <div class="modal_container">
+                <figure class="modal_picture">
+                    <img src="img/portafolio8.jpg" class="modal_img">
+                </figure>
+                <h2 class="modal_title modal_title--bold">PATOREO
+                    <span class="modal_title">DEL GANADO</span>
+                </h2>
+                <a href="#portafolio" class="modal_close">Ver Portafolio</a>
+            </div>
+        </section>
+        <!-- SECCION PRODUCTOS -->
+        <section class="servicios" id="servicios">
+            <div class="contenedor">
+                <h2 class="titulo">NUESTROS SERVICIOS</h2>
+                <div class="contenedor-servicios">
+                    <div class="card-serv">
+                        <figure>
+                            <img src="img/portafolio1.jpg">
+                        </figure>
+                        <div class="contenido-serv">
+                            <h3>VENTA DE GANADO</h3>
+                            <p>Facilita la venta de tu ganado mediante listados que destaca las características
+                                específicas
+                                de cada animal, proporciona información sobre su historial de salud y resalta aspectos
+                                únicos
+                                que lo hacen atractivo. </p>
+                            <a href="https://api.whatsapp.com/send/?phone=%2B51940886299&text=Hola%2C+deseo+informaci%C3%B3n+sobre+los+servicios+que+ofrece.&type=phone_number&app_absent=0"
+                                target="_blank" rel="noopener noreferrer" class="input-pro">¡Mas Información!</a>
+                        </div>
+                    </div>
+                    <div class="card-serv">
+                        <figure>
+                            <img src="img/portafolio2.jpg">
+                        </figure>
+                        <div class="contenido-serv">
+                            <h3>COMPRA DE GANADO</h3>
+                            <p>Nos destacamos en la ganadería priorizando la calidad, criando cada animal que ofrecemos
+                                con los más altos estándares de bienestar y salud, reflejando así nuestra dedicación a
+                                la excelencia.</p>
+                            <a href="https://api.whatsapp.com/send/?phone=%2B51940886299&text=Hola%2C+deseo+informaci%C3%B3n+sobre+los+servicios+que+ofrece.&type=phone_number&app_absent=0"
+                                target="_blank" rel="noopener noreferrer" class="input-pro">¡Mas Información!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- SECCION CLIENTES -->
+        <section class="consumidores" id="consumidores">
+            <div class="contenedor">
+                <h2 class="titulo">NUESTROS CONSUMIDORES</h2>
+                <input type="radio" name="dot" id="one">
+                <input type="radio" name="dot" id="two">
+                <div class="main-card">
+                    <div class="cards">
+                        <div class="card">
+                            <div class="content">
+                                <div class="img">
+                                    <img src="img/logo_gloria.png" alt="">
+                                </div>
+                                <div class="details">
+                                    <div class="name">GLORIA</div>
+                                    <div class="job">Cliente</div>
+                                </div>
+                                <div class="media-icons">
+                                    <a href="https://www.gloria.com.pe/" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i></a>
+                                    <a href="https://www.facebook.com/GloriaPeru/" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://www.instagram.com/gloria_peru/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://www.youtube.com/@GloriaPeruOficial" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="content">
+                                <div class="img">
+                                    <img src="img/logo_laive.png" alt="">
+                                </div>
+                                <div class="details">
+                                    <div class="name">LAIVE</div>
+                                    <div class="job">Cliente</div>
+                                </div>
+                                <div class="media-icons">
+                                    <a href="https://laive.pe/" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i></a>
+                                    <a href="https://www.facebook.com/LaiveOficial" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://www.instagram.com/laiveperu/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://www.youtube.com/@LaivePeru" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="content">
+                                <div class="img">
+                                    <img src="img/logo_nestle.jpg" alt="">
+                                </div>
+                                <div class="details">
+                                    <div class="name">NESTLÉ</div>
+                                    <div class="job">Cliente</div>
+                                </div>
+                                <div class="media-icons">
+                                    <a href="https://tiendanestle.pe/" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i></a>
+                                    <a href="https://www.facebook.com/Nestleperu" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://www.instagram.com/nestleperu?igshid=YmMyMTA2M2Y%3D" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://www.youtube.com/user/NestlePeruOficial" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="card">
+                            <div class="content">
+                                <div class="img">
+                                    <img src="img/logo_sanfernando.png" alt="">
+                                </div>
+                                <div class="details">
+                                    <div class="name">SAN FERNANDO</div>
+                                    <div class="job">Cliente</div>
+                                </div>
+                                <div class="media-icons">
+                                    <a href="https://corporativo.sanfernando.pe/" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i></a>
+                                    <a href="https://www.facebook.com/san.fernando.labuenafamilia/?locale=es_LA" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://www.instagram.com/sanfernando.peru/?hl=es" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://www.facebook.com/san.fernando.labuenafamilia/?locale=es_LA" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="content">
+                                <div class="img">
+                                    <img src="img/logo_redondo.png" alt="">
+                                </div>
+                                <div class="details">
+                                    <div class="name">BIC INTENSITY</div>
+                                    <div class="job">Cliente</div>
+                                </div>
+                                <div class="media-icons">
+                                    <a href="https://www.redondos.com.pe"><i class="fas fa-globe" target="_blank" rel="noopener noreferrer"></i></a>
+                                    <a href="https://www.facebook.com/redondos.pe/?fref=ts" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://www.instagram.com/redondos.pe/?hl=es-la" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://www.youtube.com/channel/UCIjgkM5kj_iBI4FoyiKoUyQ" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="content">
+                                <div class="img">
+                                    <img src="img/logo_agalap.png" alt="">
+                                </div>
+                                <div class="details">
+                                    <div class="name">AGALEP</div>
+                                    <div class="job">Cliente</div>
+                                </div>
+                                <div class="media-icons">
+                                    <a href="https://perulactea.com/tag/agalep/" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i></a>
+                                    <a href="https://www.facebook.com/AGALEP2004" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://www.youtube.com/@AGALEP2004" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="button">
+                    <label for="one" class=" active one"></label>
+                    <label for="two" class="two"></label>
+                </div>
+            </div>
+        </section>
+        <!-- SECION CONTACTO -->
+        <section class="contacto" id="contacto">
+            <div class="contenedor-general">
+                <div class="contenedor-info">
+                    <div class="contenedor-cont">
+                        <h2>CONTÁCTANOS</h2>
+                        <p>Atención de lunes a viernes de 9 a.m a 7 p.m y sábados de 9 a.m a 12 p.m</p>
+                    </div>
+                    <div class="box">
+                        <div class="icon-info">
+                            <img src="img/location.svg" alt="">
+                        </div>
+                        <div class="text-info">
+                            <h3>Dirección</h3>
+                            <p>Jirón Lima segunda cuadra - Parinacochas, Ayacucho</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon-info">
+                            <img src="img/phone.svg" alt="">
+                        </div>
+                        <div class="text-info">
+                            <h3>Celular</h3>
+                            <p>+51 940 886 299</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon-info">
+                            <img src="img/email.svg" alt="">
+                        </div>
+                        <div class="text-info">
+                            <h3>Email</h3>
+                            <p>Royerdt072017@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="social-media">
+                        <p>Encuentranos en:</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contenedor-form">
+                    <form action="" id="form">
+                        <h2>ENVÍA UN CORREO</h2>
+                        <div class="inputbox">
+                            <input type="text" name="nombre" id="nombre" autocomplete="off" required>
+                            <span>Nombres y Apellidos</span>
+                        </div>
+                        <div class="inputbox">
+                            <input type="email" name="mail" id="mail" autocomplete="off" required>
+                            <span>Email</span>
+                        </div>
+                        <div class="inputbox">
+                            <input type="text" name="asunto" id="asunto" autocomplete="off" required>
+                            <span>Asunto</span>
+                        </div>
+                        <div class="inputbox">
+                            <textarea name="mensaje" id="mensaje" autocomplete="off" required></textarea>
+                            <span>Mensaje</span>
+                        </div>
+                        <div class="inputbox">
+                            <input type="submit" name="" value="ENVIAR">
+                        </div>
+                    </form>
+                    <a href="mailto:larantvplus@gmail.com" id="enviar">enviar</a>
+                </div>
+            </div>
+        </section>
+        <script>
+            const $form = document.querySelector('#form')
+            const $buttonMailto = document.querySelector('#enviar')
+
+            $form.addEventListener('submit', handleSubmit)
+
+            function handleSubmit(event) {
+                event.preventDefault()
+                const form = new FormData(this)
+                console.log(form.get('nombre'))
+                $buttonMailto.setAttribute('href', `mailto:Royerdt072017@gmail.com?subject=Asunto: ${form.get('asunto')}&body=Nombres y Apellidos: ${form.get('nombre')} %0ACorreo: ${form.get('mail')} %0AMensaje: ${form.get('mensaje')}`)
+                $buttonMailto.click()
+            }
+        </script>
+    </main>
+    <footer class="main-footer">
+        <div class="footer__section">
+            <h2 class="footer__title">SOBRE NOSOTROS:</h2>
+            <p class="footer__txt">Somo propietarios de una ganadería comprometida con la crianza y oferta de ganado de
+                alta calidad. En nuestro establecimiento, combinamos la tradición con la innovación, destacando la
+                atención meticulosa a cada detalle que se refleja en la excelencia de nuestros productos.</p>
+        </div>
+        <div class="footer__section">
+            <h2 class="footer__title">UBICACIÓN:</h2>
+            <p class="footer__txt">Jirón Lima segunda cuadra - Parinacochas, Ayacucho</p>
+            <h2 class="footer__title">CONTACTOS: </h2>
+            <p class="footer__txt">Teléfono: +51 940 886 299</p>
+            <p class="footer__txt">Correo: Royerdt072017@gmail.com</p>
+        </div>
+        <div class="footer__section">
+            <h2 class="footer__title">ENLACES:</h2>
+            <a href="#banner" class="footer__link">Inicio</a>
+            <a href="#nosotros" class="footer__link">Nosotros</a>
+            <a href="#portafolio" class="footer__link">Portafolio</a>
+            <a href="#servicios" class="footer__link">Servicios</a>
+            <a href="#planes" class="footer__link">Planes</a>
+            <a href="#contacto" class="footer__link">Contacto</a>
+        </div>
+        <div class="footer__section">
+            <h2 class="footer__title">SUSCRIBETE:</h2>
+            <p class="footer__txt">Al suscribirse a nuestra lista de correo, siempre recibirá nuestras últimas noticias
+                y actualizaciones.</p>
+            <input type="email" class="footer__input" placeholder="Enter your email">
+        </div>
+        <p class="copy">&copy; 2023 GANADERÍA | CESAR ODON ACUÑA ESPEJO</p>
+    </footer>
+    <!-- BOTON WHATSAPP -->
+    <div class="nav-bottom">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <div class="popup-whatsapp fadeIn">
+            <div class="content-whatsapp -top">
+                <button type="button" class="closePopup">
+                    <i class="material-icons icon-font-color">close</i>
+                </button>
+                <p> <img src="img/secretary.png" width="40"> Hola, ¿en que podemos ayudarle? </p>
+            </div>
+            <div class="content-whatsapp -bottom">
+                <input class="whats-input" id="whats-in" type="text" Placeholder="Enviar mensaje..." />
+                <button class="send-msPopup" id="send-btn" type="button">
+                    <i class="material-icons icon-font-color--black">send</i>
+                </button>
+            </div>
+        </div>
+        <button type="button" id="whats-openPopup" class="whatsapp-button">
+            <div class="float">
+                <i class="fa fa-whatsapp my-float"></i>
+            </div>
+        </button>
+        <div class="circle-anime"></div>
+    </div>
+    <script src="js/whatsapp.js"></script>
+</body>
+
+</html>
